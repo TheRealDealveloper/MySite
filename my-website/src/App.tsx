@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
 import FirstTestComponent from "./Components/FirstTestComponent/FirstTestComponent";
+import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
   return (
-    <div>
-      <a>Hallo</a>
+    <>
+      <NavBar></NavBar>
       <FirstTestComponent></FirstTestComponent>
-    </div>
+    </>
   );
 }
 
