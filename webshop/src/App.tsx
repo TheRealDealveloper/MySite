@@ -8,7 +8,7 @@ import { Navbar } from "./components/Navbar";
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar />
       <Container className="mb-4">
         <Routes>
           <Route path="/" element={<Home />} />
