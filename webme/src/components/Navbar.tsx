@@ -10,8 +10,8 @@ import "./Navbar.css";
 export function Navbar() {
   return (
     <NavbarBs className="bg-white shadow-sm mb-3 fixed-bottom">
-      <Container>
-        <Nav className="navi ">
+      <div className="navi ">
+        <Nav>
           <Nav.Link to="/" as={NavLink}>
             <HomeIcon color="primary"></HomeIcon>
           </Nav.Link>
@@ -22,7 +22,7 @@ export function Navbar() {
             <FeedIcon color="primary"></FeedIcon>
           </Nav.Link>
         </Nav>
-      </Container>
+      </div>
     </NavbarBs>
   );
 }
